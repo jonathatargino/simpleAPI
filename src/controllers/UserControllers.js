@@ -38,7 +38,7 @@ module.exports = {
 
     users.push(newUser)
 
-    response.send(200,newUser);
+    response.send(201,newUser);
   },
 
   uptadeUser(request, response){
